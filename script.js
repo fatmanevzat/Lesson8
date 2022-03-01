@@ -125,8 +125,8 @@ console.log(newfil3);
 const newArrayim = filtering.map(item => item);
 console.log(newArrayim);
 
-let myAr = ['first', 'repeat', 40, 'second', NaN]
 
+let myAr = ['first', 'repeat', 40, 'second', NaN];
 
 const mapp = myAr.map(item => {
   if(typeof item === "string"){
@@ -142,9 +142,9 @@ console.log(mapp)
 
 
 for (let i = 0; i < mapp.length; i++) {
-    console.log(mapp[i]);  
+    console.log(mapp[i]);    // 148'deki işlemle aynı
 }
 
 mapp.forEach(element => {
-    console.log(element);
+    console.log(element);      // 144'deki işlemle aynı
 });
